@@ -70,6 +70,11 @@ $npm install -g nscale
 Lastly you must copy the private key file originally used for connecting to the instance onto the instance itself.
 The private key will be used by nscale for connecting to other remote instances it creates.
 
+You can now start nscale:
+```bash
+nscale start
+```
+
 ##Recommended
 To make life easier, there is a powerful tool called SSHFS which allows you to mount a remote file system locally via ssh. This lets you view files on your remote instance in your file browser and you'll be able to edit them using graphical editors. Check out the guide to using it [here](http://www.emreakkas.com/linux-tips/how-to-mount-amazon-ec2-drive-locally-fuse-sshfs)
 
